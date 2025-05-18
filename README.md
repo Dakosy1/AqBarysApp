@@ -1,12 +1,32 @@
-# React + Vite
+# AqBarvsApp 🧠✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AqBarvsApp** — это веб-приложение для изучения иностранных языков, сделанное в духе **Duolingo, Busuu и Lingvist**, но с фокусом на локальную аудиторию и гибкий выбор языковой пары.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔤 Что умеет MVP
 
-## Expanding the ESLint configuration
+- 🌍 Выбор базового языка (казахский, русский, английский)
+- 📘 Изучение популярных языков (английский, французский, немецкий и др.)
+- 🧩 Уровни A1, A2 и структура по урокам
+- 🎴 Интерактивные карточки со словами и переводами (флип-анимация)
+- 🛠 Легкое расширение уроков через JSON-файлы
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧪 Технологии
+
+- ⚛️ **React + Vite** — фронтенд
+- 💨 **Tailwind CSS** — стили и адаптивность
+- 📁 **JSON-файлы в /public** — база слов по урокам
+- 📦 Планируется: Firebase / MongoDB для хранения прогресса
+
+---
+
+## 🚀 Локальный запуск
+
+```bash
+git clone https://github.com/ТВОЙ_ЮЗЕРНЕЙМ/ТВОЙ_РЕПОЗИТОРИЙ.git
+cd my-language-app
+npm install
+npm run dev
