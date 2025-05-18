@@ -1,0 +1,8 @@
+{
+  "title": "Приветствие и знакомство",
+  "words": [
+    { "word": "Hello", "translation": "Сәлем" },
+    { "word": "Goodbye", "translation": "Сау бол" },
+    { "word": "How are you?", "translation": "Қалайсың?" }
+  ]
+}
